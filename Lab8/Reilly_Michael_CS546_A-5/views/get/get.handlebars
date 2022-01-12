@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>{{title}}</title>
+<h1>{{title}}</h1>
+<main>
+    <p>
+        Show Finder: This search tool allows you to find shows. You can get these through two methods, using a specific search term string, and an id number. This is done using /search with a searchTerm and /shows/:id.
+    </p>
+    <form method="post" action="/search">
+        <label for="search">Show SearchTerm</label>
+        <input id="search" name="searchTerm">
+        <button id="searching" type="submit" value="search"></button>
+    </form>
+</main>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-color: blue;
+}
+
+h1{
+    color: pink;
+    text-align: center;
+}
+
+form{
+    background-color: purple;
+}
+
+button{
+    color: yellow;
+    background-color: black
+}
+
+ul{
+    background-color: cyan;
+}
+
+label{
+    text-decoration: underline;
+}
+
+footer{
+    color: white;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.alert-danger{
+    color: red;
+}
+
+.is-prime{
+    color: #00E676;
+}
+
+.not-prime{
+    color: #FF3D00;
+}

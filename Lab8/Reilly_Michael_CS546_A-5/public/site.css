@@ -1,0 +1,57 @@
+main {
+    align-items: center;
+}
+title {
+    text-decoration: underline;
+    font-weight: bold;
+    color: blueviolet;
+}
+p {
+    color: blue;
+    background-color: black;
+}
+form {
+    background-color: blue;
+}
+label {
+    text-decoration: underline;
+}
+button {
+    background-color: yellow;
+    color: black;
+}
+h1 {
+    background-color: burlywood;
+}
+h2 {
+    color: tan;
+}
+a {
+    color: fuchsia;
+}
+ul {
+    list-style-type: square;
+}
+li {
+    background-color: green;
+}
+div {
+    background-color: salmon;
+}
+dl {
+    background-color: slategrey;
+    text-decoration: snow;
+}
+dt {
+    font-weight: lighter;
+    color: yellow;
+}
+dd {
+    color: snow
+}
+.not-found{
+    color: red;
+}
+.error{
+    color: palevioletred;
+}

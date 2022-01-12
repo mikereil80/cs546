@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Show Finder Ajax</title>
+</head>
+<body>
+    <h1>Show Finder Ajax</h1>
+    <ul id="showList" hidden>
+    </ul>
+    <div id="show" hidden>
+        <h1 id="showname"></h1>
+        <img id="showimage" src="/public/img/no_image.jpeg" alt="Show Poster">
+        <dl>
+            <dt>Langauge</dt>
+            <dd id="showlanguage"></dd>
+            <dt>Genres</dt>
+            <dd>
+                <ul id="showgenres">
+                </ul>
+            </dd>
+            <dt>Average Rating</dt>
+            <dd id="showratingaverage"></dd>
+            <dt>Network</dt>
+            <dd id="shownetworkname"></dd>
+            <dt>Summary</dt>
+            <dd id="showsummary"></dd>
+        </dl>
+    </div>
+    <div id="search">
+        <form id="searchForm" class="form">
+            <label for="search_term">Enter Search Term <input id="search_term" name="search_term" type="text" placeholder="Search Term" /></label>
+            <button type="submit" class="btn btn-default" id="search_button">Search</button>
+        </form>
+    </div>
+    <div id="error"></div>
+    <a href="/" id="homeLink" hidden>Back to All Shows</a>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+    <script src="/public/js/shows.js"></script>
+
+    <footer>Michael Reilly 10439198 I pledge my honor that I have abided by the Stevens Honor System.</footer>
+</body>
+</html>
